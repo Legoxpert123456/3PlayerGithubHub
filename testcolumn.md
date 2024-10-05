@@ -25,6 +25,18 @@
   display: table;
   clear: both;
 }
+<style>
+a:link, a:visited {
+  background-color:rgb(32, 66, 145);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color:rgb(51, 102, 222);
+}
 </style>
 </head>
 <body>
