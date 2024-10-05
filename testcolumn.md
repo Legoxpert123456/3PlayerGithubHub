@@ -25,7 +25,6 @@
   display: table;
   clear: both;
 }
-<style>
 a:link, a:visited {
   background-color:rgb(32, 66, 145);
   color: white;
