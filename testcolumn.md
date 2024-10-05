@@ -41,7 +41,7 @@ a:hover, a:active {
 <body>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column" style="background-color:rgb(108, 116, 135);">
     <p>
       <A HREF="driftboss.html"> Drift Boss
   </A><BR><BR>
@@ -51,7 +51,7 @@ a:hover, a:active {
   </A><BR><BR>
   </p>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column" style="background-color:rgb(108, 116, 135);">
     <p>
      <A HREF="driftboss.html"> Drift Boss
   </A><BR><BR>
@@ -61,7 +61,7 @@ a:hover, a:active {
   </A><BR><BR>   
     </p>
   </div>
-  <div class="column" style="background-color:#ccc;">
+  <div class="column" style="background-color:rgb(108, 116, 135);">
     <p>
        <A HREF="driftboss.html"> Drift Boss
   </A><BR><BR>
