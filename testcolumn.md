@@ -1,8 +1,8 @@
 <html>
 <div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
-  <div class="column"></div>
+  <div class="column">Column 1</div>
+  <div class="column">Column 2</div>
+  <div class="column">Column 3</div>
 </div>
 .column {
   float: left;
