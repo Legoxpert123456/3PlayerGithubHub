@@ -18,14 +18,24 @@
 }
 .column {
   float: left;
-.left {
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+}
+.column.left {
   width: 33%;
 }
-.middle {
+.column.middle {
   width: 33%;
 }
-.right {
+.column.right {
   width: 33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 a:link, a:visited {
   background-color:rgb(32, 66, 145);
@@ -47,7 +57,7 @@ a:hover, a:active {
 </style>
 				
 <div class="row">
-  <div class="column" style="background-color:rgb(108, 116, 135);">
+  <div class="column left" style="background-color:rgb(108, 116, 135);">
     <p>
 <A HREF="1v1.html"> 1v1.lol
   </A><BR><BR>
@@ -81,7 +91,7 @@ a:hover, a:active {
   </A><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
   </p>
   </div>
-  <div class="column" style="background-color:rgb(108, 116, 135);">
+  <div class="column middle" style="background-color:rgb(108, 116, 135);">
     <p>  
 <A HREF="angrybirds.html"> Angry Birds
   </A><BR><BR>
@@ -117,7 +127,7 @@ a:hover, a:active {
   </A><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
     </p>
   </div>
-  <div class="column" style="background-color:rgb(108, 116, 135);">
+  <div class="column right" style="background-color:rgb(108, 116, 135);">
     <p>
        <A HREF="Retrobowl.html"> Retro Bowl
   </A><BR><BR>
