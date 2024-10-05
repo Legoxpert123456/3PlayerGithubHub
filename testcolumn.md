@@ -52,13 +52,7 @@ a:hover, a:active {
   </p>
   </div>
   <div class="column" style="background-color:rgb(108, 116, 135);">
-    <p>
-     <A HREF="driftboss.html"> Drift Boss
-  </A><BR><BR>
-      <A HREF="driftboss.html"> Drift Boss
-  </A><BR><BR>
-      <A HREF="driftboss.html"> Drift Boss
-  </A><BR><BR>   
+    <p>  
     </p>
   </div>
   <div class="column" style="background-color:rgb(108, 116, 135);">
