@@ -9,9 +9,14 @@
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+.left {
+  width: 45%;
+}
+.middle {
+  width: 10%;
+}
+.right {
+  width: 45%;
 }
 
 /* Clear floats after the columns */
