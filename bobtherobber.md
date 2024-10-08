@@ -1,1 +1,4 @@
-<html><head><object xmlns="http://www.w3.org/1999/xhtml" data="https://cdn.jsdelivr.net/gh/StarRepo444/ClassroomPlayV2@c28ef0cfdccbbfc61a42d9954f14af3115c7398a/games/flash/swf/bob-the-robber.swf" height="100%" type="application/x-shockwave-flash" width="100%"><param name="movie" value="" /> </object><script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.1.0-nightly.2023.11.10/ruffle.js"></script></head></html>
+<html>
+  <body><iframe src="https://html5.gamedistribution.com/18d28481ea514f3c838f9a5a355fb0f7/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+  </body>
+</html>
