@@ -1,5 +1,6 @@
 
 <html>
+<style>
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
 * {
@@ -117,7 +118,7 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
+</style>
 <body>
 <div class="container">  
   <form id="suggestion_box" action="" method="post">
