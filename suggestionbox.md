@@ -1,29 +1,137 @@
-<!DOCTYPE html>
+
 <html>
-<body>
-<h2>DelftStack learning</h2>
-<h3>JavaScript comment box example</h3>
-<form id="myForm">
-Full name: <input id="userName" type="text" name="fname">
-<br><br>
-Email : <input id="userEmail" type="text" name="email">
-<br><br>
-<textarea id ="userComment" rows="4" cols="50" name="comment"> Enter comment here...</textarea>
-<br><br>
-<input type="button" onclick="myFunction()" value="Submit">
-</form>
-<h5>Submitted data :</h5>
-<p id="data"></p>
-<script>
-function myFunction(){
-let data = "";  let name = document.getElementById("userName").value
-let email = document.getElementById("userEmail").value
-let comment = document.getElementById("userComment").value
- 
-data = "User name : "+name+"<br/>User email : "+email+ "<br/>User comment : "+comment
- 
-document.getElementById("data").innerHTML = data  // display data to paragraph
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
 }
-</script>
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#77;
+	background:#0CF;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#suggestion_box textarea, #suggestion_box button[type="submit"] { font:400 16px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#suggestion_box {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#suggestion_box h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#suggestion_boxh4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+#suggestion_box h5 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:10px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#suggestion_box textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#suggestion_box textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#suggestion_box button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#suggestion_box button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#suggestion_box button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#suggestion_box input:focus, #suggestion_box textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+<body>
+<div class="container">  
+  <form id="suggestion_box" action="" method="post">
+    <h3>Suggestion box</h3>
+    <h4>Question of the month:</h4>
+    <p>Here comes the question</p>
+    <h5>Or general improvement ideas</h5>
+    <fieldset>
+      <textarea placeholder="Suggestion" tabindex="5" name="suggestion_text" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="suggestion_box" data-submit="...Sending" value="text to send">Submit</button>
+    </fieldset>
+  </form>
+</div>
 </body>
 </html>
