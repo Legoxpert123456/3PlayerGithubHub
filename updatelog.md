@@ -11,6 +11,7 @@
   2.03.16- Added the Update Log <BR>
   2.03.17- Added Community Forum <BR>
   2.03.18- Added Slope to test <BR>
+  2.03.19- Slope confirmed working <BR>
 </FONT>
 </body>
 </html>
