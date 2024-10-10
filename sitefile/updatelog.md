@@ -16,6 +16,7 @@
   2.04.02- Cool Math Games sadly failure <BR>
   2.04.03- Testing Papas Freezeria again <BR>
   2.04.04- Removal of Cool Math Games <BR>
+  2.05.01- Complete organization of Files (makes no difference for user) <BR>
 </FONT>
 </body>
 </html>
