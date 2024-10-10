@@ -9,7 +9,8 @@
   2.03.02-2.03.14- 2 New Games + The Fixing of "Bob the Robber" <BR>
   2.03.15- Added suggestion box for new game ideas and suggestions <BR>
   2.03.16- Added the Update Log <BR>
-  2.03.17- Added Community Forum
+  2.03.17- Added Community Forum <BR>
+  2.03.18- Added Slope to test <BR>
 </FONT>
 </body>
 </html>
