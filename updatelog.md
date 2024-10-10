@@ -13,6 +13,7 @@
   2.03.18- Added Slope to test <BR>
   2.03.19- Slope confirmed working <BR>
   2.04.01- Added Cool Math Games to Test <BR>
+  2.04.02- Cool Math Games sadly failure <BR>
 </FONT>
 </body>
 </html>
