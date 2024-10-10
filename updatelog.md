@@ -12,6 +12,7 @@
   2.03.17- Added Community Forum <BR>
   2.03.18- Added Slope to test <BR>
   2.03.19- Slope confirmed working <BR>
+  2.04.01- Added Cool Math Games to Test <BR>
 </FONT>
 </body>
 </html>
