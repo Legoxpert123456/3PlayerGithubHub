@@ -17,6 +17,7 @@
   2.04.03- Testing Papas Freezeria again <BR>
   2.04.04- Removal of Cool Math Games <BR>
   2.05.01- Complete organization of files (makes no difference for user) + testing of PVZ and monopoly <BR>
+  2.05.02- Poker Added to test <BR>
 </FONT>
 </body>
 </html>
