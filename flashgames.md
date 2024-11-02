@@ -1,0 +1,1 @@
+<iframe>https://flashgames.cx/
