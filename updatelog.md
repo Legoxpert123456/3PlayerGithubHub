@@ -20,6 +20,7 @@
   2.05.02- Poker Added to test <BR>
   3.01.01- NEW DOMAIN <BR>
   3.01.02- 3 New motox3 games <BR>
+  3.02.01- HUGE update: added Doom, Backyard Baseball, N64 Super smash bros, and little alchemy, updated password page,  <BR>and flash games sight adding a HUGE amount of games too many to count
 </FONT>
 </body>
 </html>
